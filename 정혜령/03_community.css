@@ -1,0 +1,45 @@
+/* 03_community.css */
+/* 아래에 코드를 작성해 주세요. */
+
+.main h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 800;
+  letter-spacing: .01em;
+}
+/* font-family: 'Oswald', sans-serif; */
+
+aside a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+aside a:hover {
+  color:black;
+}
+
+.main > div > h1 {
+  text-align: center;
+}
+
+.top-buffer { 
+  margin-top: 20px;
+}
+.top-buffer-02 {
+  margin-top: 50px;
+}
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #5a5a5a;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: black;
+    background-color: #eee;
+    border-color: #ddd;
+}

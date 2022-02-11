@@ -1,0 +1,9 @@
+/* 02_home.css */
+/* 아래에 코드를 작성해 주세요. */
+
+.home-title {
+  padding-left: .8rem;
+  font-weight: 800;
+  letter-spacing: .8rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
