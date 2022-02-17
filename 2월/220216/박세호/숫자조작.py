@@ -12,6 +12,6 @@ for i in range(nums):
                 get_lst[j],get_lst[k] = get_lst[k],get_lst[j]   #j번째 자리 숫자와 k번째 자리 숫자를 바꿔준다.
                 if get_lst[0] != "0":                           # 바꾼 값 get_lst의 첫번째 값이 0 이 아니라면,
                     get_.add(int("".join(get_lst)))             # get_ 에 int 형태로 추가해준다.
-    print("#{0} {1} {2}".format(i+1,min(get_),max(get_)))       # get_에서 최대 최소 값을 출력한다.
+    print("#{0} {1} {2}".format(i+1,min(get_),max(get_)))      # get_에서 최대 최소 값을 출력한다.
 
 
