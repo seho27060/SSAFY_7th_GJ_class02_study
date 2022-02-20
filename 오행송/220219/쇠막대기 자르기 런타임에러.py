@@ -5,7 +5,7 @@ for i in range(0,T):
     N = input()
 
     Nlist=N.replace('()','@')
-
+        print()
     Fecnt=0
     for j in range(0,len(Nlist)-1):
         if Nlist[j] == '(':
